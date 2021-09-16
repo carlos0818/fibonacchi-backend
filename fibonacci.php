@@ -58,7 +58,7 @@
 			}
 
 			$respuesta = [
-				'data' => $fibonacci[$numero],
+				'data' => $fibonacci[$numero-1],
 				'response' => 'Ok',
 				'code' => '200'
 			];
